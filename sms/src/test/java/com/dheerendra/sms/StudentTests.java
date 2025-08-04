@@ -24,7 +24,7 @@ public class StudentTests {
 
     @Test
     public void testCreateStudent(){
-        Student student=new Student(1L,"ram","das");
+        Student student=new Student(1L,"raj","ram");
         Student savedStudent=studentRepository.save(student);
         assertNotNull(savedStudent);
     }
@@ -51,3 +51,4 @@ public class StudentTests {
     }
 
 }
+
